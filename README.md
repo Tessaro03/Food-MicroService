@@ -35,6 +35,27 @@ O Gateway é responsável por rotear as requisições para os serviços apropria
 - Eureka (Spring Cloud Netflix)
 - Spring Cloud Gateway
 
+## Como Rodar o Projeto
+
+Para rodar o projeto, siga os passos abaixo:
+
+Clone o repositório do docker-compose no GitHub:
+```sh
+git clone https://github.com/Tessaro03/Docker-Compose-food-microservice.git
+```
+
+Navegue até o diretório do projeto clonado:
+```sh
+cd Docker-Compose-food-microservice
+```
+
+Execute o comando para subir os serviços utilizando Docker Compose:
+```sh
+docker-compose up
+```
+
+Isso irá baixar as imagens necessárias, criar e iniciar os contêineres definidos no arquivo docker-compose.yml.
+
 ## Futuras Atualizações
 
 - Adicionar o serviço de Usuário
